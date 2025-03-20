@@ -84,4 +84,142 @@ You have data on **houses** and their **prices**.
 📌 **Self-Driving Cars** → Object detection, lane following  
 📌 **Natural Language Processing (NLP)** → Sentiment analysis, chatbots  
 
-Would you like a deeper dive into any specific algorithm? 🚀
+
+## **Linear Regression: The Basics & Beyond**  
+
+### **What is Linear Regression?**  
+Linear Regression is a **Supervised Learning algorithm** used for **predicting continuous values**. It establishes a linear relationship between **input features (X)** and **output (Y)** using a straight-line equation.
+
+👉 In simple terms, **Linear Regression** finds the **best-fit line** that predicts the output (Y) based on input (X).
+
+---
+
+## **1. Why is it Called "Linear"?**  
+It’s called **Linear Regression** because it assumes that the relationship between **input (X) and output (Y) is linear** (i.e., a straight-line relationship).
+
+For example:  
+📌 **Predicting House Prices**  
+- **X (Input):** Area of the house (in sq. ft)  
+- **Y (Output):** Price of the house (in INR)  
+- The larger the area, the higher the price → **Linear Relationship**
+
+### **Mathematical Representation**  
+The equation of a straight line is:  
+\[
+Y = mX + c
+\]  
+Where:  
+- \( Y \) → Predicted output (dependent variable)  
+- \( X \) → Input feature (independent variable)  
+- \( m \) → Slope (how much Y changes when X increases)  
+- \( c \) → Intercept (the value of Y when X = 0)  
+
+In **Machine Learning**, we generalize it as:  
+\[
+Y = \theta_0 + \theta_1 X
+\]  
+Where:  
+- \( \theta_0 \) (Intercept) = \( c \)  
+- \( \theta_1 \) (Slope) = \( m \)  
+- \( X \) is the input feature  
+
+---
+
+## **2. Example: Predicting House Prices**
+Let's say we collect data on houses:
+
+| **Area (sq. ft)** | **Price (INR in Lakhs)** |
+|-----------------|------------------|
+| 1000           | 50               |
+| 1500           | 70               |
+| 2000           | 90               |
+| 2500           | 110              |
+
+We plot this on a graph and try to find the **best-fit line** that minimizes error.
+
+👉 If the equation of the line is:  
+\[
+\text{Price} = 20 + 0.04 \times \text{Area}
+\]  
+Then for **1800 sq. ft**, the predicted price is:  
+\[
+\text{Price} = 20 + 0.04 \times 1800 = 92 \text{ Lakhs}
+\]
+
+---
+
+## **3. Cost Function: How to Measure Error?**  
+The best-fit line is found by **minimizing the error** between predicted values and actual values.  
+
+The **Mean Squared Error (MSE)** is used as the cost function:
+
+\[
+J(\theta_0, \theta_1) = \frac{1}{n} \sum_{i=1}^{n} (Y_i - \hat{Y_i})^2
+\]
+
+Where:  
+- \( Y_i \) → Actual value  
+- \( \hat{Y_i} \) → Predicted value  
+- \( n \) → Total number of data points  
+
+👉 The smaller the error, the better the model!
+
+---
+
+## **4. How Does the Model Learn? (Gradient Descent)**
+The model needs to **find the best values of \( \theta_0 \) and \( \theta_1 \)**.  
+It does this using an optimization algorithm called **Gradient Descent**.
+
+**Gradient Descent Steps:**
+1. Start with random values of \( \theta_0 \) and \( \theta_1 \).
+2. Compute the cost function (error).
+3. Adjust \( \theta_0 \) and \( \theta_1 \) to minimize the error.
+4. Repeat until error is minimized.
+
+**Gradient Descent Formula:**  
+\[
+\theta_j = \theta_j - \alpha \frac{\partial J}{\partial \theta_j}
+\]
+Where:  
+- \( \alpha \) → Learning rate (small step size to update weights)  
+- \( \frac{\partial J}{\partial \theta_j} \) → Partial derivative of the cost function  
+
+👉 This process keeps adjusting \( \theta \) values until we find the best-fit line!
+
+---
+
+## **5. Types of Linear Regression**  
+
+### **A. Simple Linear Regression** (One Feature)  
+- Uses only **one independent variable (X)**.  
+- Example: Predicting salary based on **years of experience**.  
+
+### **B. Multiple Linear Regression** (Multiple Features)  
+- Uses **more than one independent variable (X1, X2, ... Xn)**.  
+- Example: Predicting house price using **area, number of bedrooms, location, etc.**  
+
+**Formula for Multiple Regression:**  
+\[
+Y = \theta_0 + \theta_1X_1 + \theta_2X_2 + ... + \theta_nX_n
+\]
+
+---
+
+## **6. When to Use Linear Regression?**
+✅ When the relationship between X and Y is **linear**.  
+✅ When data is **not too complex**.  
+✅ When interpretability is important (knowing how features affect the outcome).  
+
+🚫 **Avoid Linear Regression when:**  
+❌ The relationship between X and Y is **not linear**.  
+❌ There are **outliers** (extreme values that distort predictions).  
+❌ The dataset is too **small or biased**.  
+
+---
+
+## **7. Real-World Applications of Linear Regression**
+📌 **Finance** → Predicting stock prices  
+📌 **Healthcare** → Predicting patient recovery time  
+📌 **Marketing** → Forecasting sales based on ad spend  
+📌 **Agriculture** → Predicting crop yield based on rainfall  
+

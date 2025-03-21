@@ -1,5 +1,10 @@
 # MachineLearning
 
+e Appears Whenever Growth Rate is Proportional to the Current Value
+e naturally arises when growth rate is proportional to the current value.
+It is the foundation of continuous compounding, population growth, physics, and even machine learning (like sigmoid functions in AI)!
+e growth ensures smooth, natural continuous growth.
+
 ## **Supervised Learning in AI**  
 
 ### **What is Supervised Learning?**  

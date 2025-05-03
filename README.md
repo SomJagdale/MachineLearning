@@ -562,12 +562,23 @@ Would you like a quick cheat sheet of these in PDF form, or want to explore real
 ![image](https://github.com/user-attachments/assets/98bd85de-f4ec-4ecd-a857-1385e23335b6)
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/26a1e703-b655-4d4c-980d-bdd672628ed2)
 
 
 ![image](https://github.com/user-attachments/assets/69cf1981-3f5c-487b-8917-0eb81e2c8124)
 
 
 ![image](https://github.com/user-attachments/assets/7be8b761-74cd-43c4-834d-24d9fb4104b4)
+
+![image](https://github.com/user-attachments/assets/3437d27a-d577-43f9-a051-02b838c4bb0c)
+
+![image](https://github.com/user-attachments/assets/9e906181-1675-4a65-8b52-6692c3b7ceeb)
+
+![image](https://github.com/user-attachments/assets/0e32b5b2-2b16-49dc-8018-acc61756556f)
+
+![image](https://github.com/user-attachments/assets/3f1fe76b-6712-46d3-a0f5-be5de97a005a)
+
+![Uploading image.png…]()
+
 
 

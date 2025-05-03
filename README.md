@@ -555,3 +555,16 @@ _Agent learns by interacting with an environment and receiving rewards._
 ---
 
 Would you like a quick cheat sheet of these in PDF form, or want to explore real examples in Python for each category?
+
+![Uploading image.png…]()
+
+
+![image](https://github.com/user-attachments/assets/98bd85de-f4ec-4ecd-a857-1385e23335b6)
+
+
+![image](https://github.com/user-attachments/assets/69cf1981-3f5c-487b-8917-0eb81e2c8124)
+
+
+![image](https://github.com/user-attachments/assets/7be8b761-74cd-43c4-834d-24d9fb4104b4)
+
+
